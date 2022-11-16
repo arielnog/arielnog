@@ -13,7 +13,7 @@ class Developer extends Person
         string $name = "Ariel Nogueira",
         string $birthDate = "1998-04-22",
         string $occupationArea = "Software Engineer",
-        string $company = "PicPay",
+        string $company = "Uello",
         private array $stacks = ["PHP", "JavaScript", "Java"],
         private array $frameworks = ["Laravel", "Lumen", "Hyper-F", "Vue.js"],
         private array $tools = ["Docker", "Kubernetes", "Git", "New Relic"]
