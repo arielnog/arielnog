@@ -15,7 +15,7 @@ class Developer extends Person
         string $occupationArea = "Software Engineer",
         string $company = "Uello",
         private array $stacks = ["PHP", "JavaScript", "Java"],
-        private array $frameworks = ["Laravel", "Lumen", "Hyper-F", "Vue.js"],
+        private array $frameworks = ["Laravel", "Lumen", "Hyper-F", "Symfony" "Vue.js"],
         private array $tools = ["Docker", "Kubernetes", "Git", "New Relic"]
     ) {
         parent::__construct(
