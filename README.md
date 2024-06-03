@@ -13,16 +13,14 @@ class Developer extends Person
         string $name = "Ariel Nogueira",
         string $birthDate = "1998-04-22",
         string $occupationArea = "Software Engineer",
-        string $company = "PicPay",
-        private array $stacks = ["PHP", "JavaScript", "Java"],
-        private array $frameworks = ["Laravel", "Lumen", "Hyper-F", "Symfony", "Vue.js"],
-        private array $tools = ["Docker", "Kubernetes", "Git", "New Relic"]
+        private array $stacks = ["PHP", "JavaScript", "Typescript", "C#", "Java"],
+        private array $frameworks = ["Laravel", "Hyper-F", "Symfony", "Vue.js", "Nest.js", "Next.js", "Spring"],
+        private array $tools = ["Docker", "Kubernetes", "Git", "New Relic", "Dynatrace", "Grafana", "Metabase"]
     ) {
         parent::__construct(
             $name,
             $birthDate,
             $occupationArea,
-            $company
         );
     }
 }
